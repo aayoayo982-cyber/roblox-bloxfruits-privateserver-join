@@ -147,17 +147,21 @@ body: JSON.stringify(data)
 </body>
 </html>
 <style>
-    body { margin: 0; padding: 0; font-family: 'Gotham', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-    /* CHANGE THIS LINE BELOW TO ADD YOUR IMAGE URL */
-   body {
+ <style>
+body { 
+  margin: 0; 
+  padding: 0; 
+  font-family: 'Gotham', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
   background-image: url("https://playstation.com");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
-  margin: 0;
+  color: white; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+  background-color: #232527;
 }
- 
-    /* If you want to keep the dark color as a fallback if image fails, add: background-color: #232527; */
-    color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 100vh; }
-
+</style>
